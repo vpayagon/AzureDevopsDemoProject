@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PGMP Test Suite" duration-ms="27277" started-at="2022-02-15T10:27:41Z" finished-at="2022-02-15T10:28:08Z">
+    <groups>
+    </groups>
+    <test name="Test Suite" duration-ms="11712" started-at="2022-02-15T10:27:41Z" finished-at="2022-02-15T10:27:52Z">
+      <class name="com.DDdemo.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="setup" is-config="true" duration-ms="5041" started-at="2022-02-15T15:57:41Z" finished-at="2022-02-15T15:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="writeFieldDDfmk()[pri:1, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="writeFieldDDfmk" duration-ms="1083" started-at="2022-02-15T15:57:46Z" finished-at="2022-02-15T15:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeFieldDDfmk -->
+        <test-method status="PASS" signature="ClickActionTest1()[pri:2, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="ClickActionTest1" duration-ms="128" started-at="2022-02-15T15:57:47Z" finished-at="2022-02-15T15:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickActionTest1 -->
+        <test-method status="PASS" signature="ClickActiononImgTest2()[pri:3, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="ClickActiononImgTest2" duration-ms="649" started-at="2022-02-15T15:57:47Z" finished-at="2022-02-15T15:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickActiononImgTest2 -->
+        <test-method status="PASS" signature="ClickActionLinkTest3()[pri:4, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="ClickActionLinkTest3" duration-ms="3903" started-at="2022-02-15T15:57:48Z" finished-at="2022-02-15T15:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickActionLinkTest3 -->
+        <test-method status="PASS" signature="verifyTest()[pri:5, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="verifyTest" duration-ms="87" started-at="2022-02-15T15:57:52Z" finished-at="2022-02-15T15:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DDdemo.testcases.HomePageTest@5c3bd550]" name="teardown" is-config="true" duration-ms="779" started-at="2022-02-15T15:57:52Z" finished-at="2022-02-15T15:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DDdemo.testcases.HomePageTest -->
+    </test> <!-- Test Suite -->
+    <test name="Test Suite1" duration-ms="15528" started-at="2022-02-15T10:27:52Z" finished-at="2022-02-15T10:28:08Z">
+      <class name="com.DDdemo.testcases.JavaPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="setup" is-config="true" duration-ms="4544" started-at="2022-02-15T15:57:52Z" finished-at="2022-02-15T15:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickLJava()[pri:1, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="clickLJava" duration-ms="1887" started-at="2022-02-15T15:57:57Z" finished-at="2022-02-15T15:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLJava -->
+        <test-method status="PASS" signature="verifyText()[pri:2, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="verifyText" duration-ms="280" started-at="2022-02-15T15:57:59Z" finished-at="2022-02-15T15:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="clickLinkTest1()[pri:3, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="clickLinkTest1" duration-ms="5357" started-at="2022-02-15T15:57:59Z" finished-at="2022-02-15T15:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinkTest1 -->
+        <test-method status="PASS" signature="verifyTest1()[pri:4, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="verifyTest1" duration-ms="272" started-at="2022-02-15T15:58:05Z" finished-at="2022-02-15T15:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest1 -->
+        <test-method status="PASS" signature="clickLinkTest2()[pri:5, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="clickLinkTest2" duration-ms="2013" started-at="2022-02-15T15:58:05Z" finished-at="2022-02-15T15:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinkTest2 -->
+        <test-method status="PASS" signature="verifyTest2()[pri:6, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="verifyTest2" duration-ms="253" started-at="2022-02-15T15:58:07Z" finished-at="2022-02-15T15:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DDdemo.testcases.JavaPageTest@57fffcd7]" name="teardown" is-config="true" duration-ms="910" started-at="2022-02-15T15:58:07Z" finished-at="2022-02-15T15:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DDdemo.testcases.JavaPageTest -->
+    </test> <!-- Test Suite1 -->
+  </suite> <!-- PGMP Test Suite -->
+</testng-results>

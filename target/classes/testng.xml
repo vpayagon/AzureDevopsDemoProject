@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PGMP Test Suite" parallel="false"
+	preserve-order="true" thread-count="1" verbose="10">
+	<test name="Test Suite">
+		<classes>
+			<class name="com.DDdemo.testcases.HomePageTest" />			
+		</classes>
+	</test>
+	<test name="Test Suite1">
+		<classes>
+			<class name="com.DDdemo.testcases.JavaPageTest" />			
+		</classes>
+	</test>
+	
+</suite> 

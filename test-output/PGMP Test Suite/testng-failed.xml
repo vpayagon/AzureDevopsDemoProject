@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [PGMP Test Suite]">
+  <test name="Test Suite1(failed)">
+    <classes>
+      <class name="com.DDdemo.testcases.JavaPageTest">
+        <methods>
+          <include name="clickLinkTest1"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.DDdemo.testcases.JavaPageTest -->
+    </classes>
+  </test> <!-- Test Suite1(failed) -->
+</suite> <!-- Failed suite [PGMP Test Suite] -->
