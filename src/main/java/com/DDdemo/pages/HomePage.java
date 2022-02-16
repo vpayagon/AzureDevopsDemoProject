@@ -38,6 +38,12 @@ public class HomePage extends TestBase {
 		wtsearchField.sendKeys(value);
 		return true;
 	}
+	public boolean writeonFieldDDapproach(String dataval) throws InterruptedException {
+		wtsearchField.clear();
+		Thread.sleep(3000);
+		wtsearchField.sendKeys(dataval);
+		return true;
+	}
 	
 	public boolean clicksearch() {
 		searchImg.click();
