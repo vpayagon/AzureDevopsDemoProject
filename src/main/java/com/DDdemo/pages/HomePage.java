@@ -1,5 +1,7 @@
 package com.DDdemo.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -46,20 +48,24 @@ public class HomePage extends TestBase {
 	}
 	
 	public boolean clicksearch() {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		searchImg.click();
 		return true;
 	}
 	
 	public boolean clickImg() {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		imgjpoint.click();
 		return true;
 	}
 
 	public boolean clickLinkJava() {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		lkJava.click();
 		return true;
 	}
 	public boolean verifyText() {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		boolean isdisplayed=false;
 		isdisplayed=textJavatp.isDisplayed();
 		return isdisplayed;
