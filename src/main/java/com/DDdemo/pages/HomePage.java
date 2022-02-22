@@ -2,6 +2,7 @@ package com.DDdemo.pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -60,8 +61,10 @@ public class HomePage extends TestBase {
 	}
 
 	public boolean clickLinkJava() {
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		lkJava.click();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//lkJava.click();
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", lkJava);
 		return true;
 	}
 	public boolean verifyText() {
