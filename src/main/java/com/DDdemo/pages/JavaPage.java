@@ -41,18 +41,21 @@ public class JavaPage extends TestBase {
 	}
 	
 	public boolean clickLinkJava() {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		linkJava1.click();
 		return true;
 		
 	}
 	
 	public boolean verifyJP() {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return verifyJP.isDisplayed();
 		
 	}
 	
 	public boolean clickLink1() throws InterruptedException {
 		Thread.sleep(4000);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		link1.click();
 		return true;
 		
@@ -60,15 +63,18 @@ public class JavaPage extends TestBase {
 	
 	
 	public boolean verifyText1() {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return vtext1.isDisplayed();		
 	}
 	
 	public boolean clickLink2() {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		link2.click();
 		return true;
 	}
 
 	public boolean verifyText2() {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return vtext2.isDisplayed();
 		
 	}
