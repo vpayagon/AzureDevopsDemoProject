@@ -61,7 +61,7 @@ public class HomePage extends TestBase {
 	}
 
 	public boolean clickLinkJava() {
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		//lkJava.click();
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", lkJava);
