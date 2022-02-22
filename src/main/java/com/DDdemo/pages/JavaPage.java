@@ -1,5 +1,8 @@
 package com.DDdemo.pages;
+
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -48,33 +51,33 @@ public class JavaPage extends TestBase {
 	}
 	
 	public boolean verifyJP() {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return verifyJP.isDisplayed();
 		
 	}
 	
 	public boolean clickLink1() throws InterruptedException {
-		Thread.sleep(4000);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		link1.click();
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", link1);
+		//link1.click();
 		return true;
 		
 	}
 	
 	
 	public boolean verifyText1() {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return vtext1.isDisplayed();		
 	}
 	
 	public boolean clickLink2() {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		link2.click();
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", link2);
+		//link2.click();
 		return true;
 	}
 
 	public boolean verifyText2() {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return vtext2.isDisplayed();
 		
 	}
